@@ -20,98 +20,75 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Alessandro Soccol",
+  initials: "AS",
+  location: "Cagliari, Italy, CEST",
+  locationLink: "https://maps.app.goo.gl/E9FAdNHp3adp1xrB9",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Applied Computer Science and Data Analytics Student with a strong commitment to innovation",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Currently, I'm pursuing my university degree with a focus on cutting-edge topics like AI. I recently completed an internship in Quantum Computing, which presented a captivating challenge and epitomized my commitment to pushing the boundaries of knowledge. My dedication to learning extends beyond the confines of academia, as I take great pleasure in exploring emerging technologies and comprehending their societal impacts. ",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "alessandrosoccol@gmail.com",
+    //tel: "",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/alessandrosocc",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/alessandrosoccol/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/alessandrosocc2",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Escuela Politécnica de Ingeniería de Gijón",
+      degree: "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+      start: "2024",
+      end: "2024",
+    },
+    {
+      school: "University of Cagliari",
+      degree: "Bachelor's Degree in Applied Computer Science and Data Analytics",
+      start: "2021",
+      end: "2024",
+    },
+    {
+      school: "University of Pisa",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2020",
+      end: "2021",
     },
   ],
   work: [
     {
-      company: "Parabol",
+      company: "University of Cagliari",
       link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
+      badges: ["In Presence"],
+      title: "Tutor Buddy",
+      //logo: ParabolLogo,
+      start: "2023",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Assistance to first-year students",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Machine Learning",
+    "Deep Learning",
+    "Language Models",
+    ""
   ],
   projects: [
     {
