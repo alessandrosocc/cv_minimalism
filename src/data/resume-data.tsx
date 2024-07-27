@@ -28,8 +28,8 @@ export const RESUME_DATA = {
     "Applied Computer Science and Data Analytics Student with a strong commitment to innovation",
   summary:
     "Currently, I'm pursuing my university degree with a focus on cutting-edge topics like AI. I recently completed an internship in Quantum Computing, which presented a captivating challenge and epitomized my commitment to pushing the boundaries of knowledge. My dedication to learning extends beyond the confines of academia, as I take great pleasure in exploring emerging technologies and comprehending their societal impacts. ",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "foto.JPG",
+  //personalWebsiteUrl: "",
   contact: {
     email: "alessandrosoccol@gmail.com",
     //tel: "",
@@ -53,7 +53,7 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Escuela Politécnica de Ingeniería de Gijón",
+      school: "Escuela Politécnica de Ingeniería de Gijón (Erasmus +)",
       degree: "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
       start: "2024",
       end: "2024",
@@ -87,8 +87,7 @@ export const RESUME_DATA = {
   skills: [
     "Machine Learning",
     "Deep Learning",
-    "Language Models",
-    ""
+    "Language Models"
   ],
   projects: [
     {
